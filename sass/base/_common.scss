@@ -1,0 +1,32 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    background-color: black;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 0px;
+    margin: 0 auto;
+}
+
+// PHONE
+@media screen and (min-width: 320px) {
+    .container {
+        width: 320px;
+    }
+}
+
+// TABLET
+// @media screen and (min-width: 786px) {
+//     .container {
+//         width: 786px;
+//     }
+// }
+
+// DEKSTOP
+// @media screen and (min-width: 1200px) {
+//     .container {
+//         width: 1200px;
+//     }
+// }
