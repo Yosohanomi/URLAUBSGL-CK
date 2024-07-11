@@ -62,9 +62,8 @@ body {
 .header {
   color: #FFF;
   height: 173px;
-  width: 177px;
   margin-top: 19px;
-  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 .header .container {
@@ -93,4 +92,20 @@ body {
 .sign-up {
   border: 2px solid #FFF;
   border-radius: 20px;
+}
+
+.header__logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url("../../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 214px;
+  padding-bottom: 130px;
 }/*# sourceMappingURL=main.css.map */
