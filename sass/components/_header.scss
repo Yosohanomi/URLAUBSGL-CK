@@ -1,12 +1,10 @@
 .header {
     color: $basicColor;
-    height: 173px;
-    margin-top: 19px;
-    margin-bottom: 22px;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
 }
 .header .container {
     display: flex;
@@ -40,6 +38,8 @@
 }
 
 .header__logo {
+    color: $basicColor;
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;

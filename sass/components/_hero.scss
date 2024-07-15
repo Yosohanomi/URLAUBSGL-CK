@@ -5,10 +5,34 @@
     background-size: cover;
     padding-top: 214px;
     padding-bottom: 136px;
+    color: $basicColor;
 }
 .hero__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    width: 306px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
 }
 .hero__text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 17px;
 }
 .hero__btn {
+    color: $basicColor;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+
+    width: 282px;
+    height: 43px;
+    background-color: $accentColor;
+    border-radius: 20px;
+    margin: 0 auto;
 }

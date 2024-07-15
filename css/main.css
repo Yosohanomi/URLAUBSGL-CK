@@ -61,9 +61,11 @@ body {
 }
 .header {
   color: #FFF;
-  height: 173px;
-  margin-top: 19px;
-  margin-bottom: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .header .container {
@@ -95,6 +97,8 @@ body {
 }
 
 .header__logo {
+  color: #FFF;
+  text-align: center;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -108,4 +112,36 @@ body {
   background-size: cover;
   padding-top: 214px;
   padding-bottom: 136px;
+  color: #FFF;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  width: 306px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.hero__text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+
+.hero__btn {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  width: 282px;
+  height: 43px;
+  background-color: #FF4E50;
+  border-radius: 20px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
