@@ -19,9 +19,6 @@
     align-items: center;
 }
 
-.header__btn__item {
-}
-
 .header__btn {
     text-align: center;
     color: $basicColor;
@@ -44,4 +41,21 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+// TABLET
+
+@media screen and (min-width: 758px) {
+    .header {
+        padding-top: 36px;
+    }
+    .header .container {
+        flex-direction: row-reverse;
+        gap: 0;
+        justify-content: space-between;
+    }
+    
+    
+    .header__logo {
+        font-size: 20px;
+    }
 }

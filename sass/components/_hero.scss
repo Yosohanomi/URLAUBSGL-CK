@@ -6,8 +6,10 @@
     padding-top: 214px;
     padding-bottom: 136px;
     color: $basicColor;
+    text-align: center;
 }
 .hero__title {
+    margin: 0 auto;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -35,4 +37,44 @@
     background-color: $accentColor;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 758px) {
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 233px;
+    }
+    .hero__title {
+        width: 508px;
+        font-size: 52px;
+        margin-bottom: 36px;
+    }
+    .hero__text {
+        font-size: 24px;
+        margin-bottom: 33px;
+    }
+    .hero__btn {
+        width: 228px;
+    }
+}
+
+// DESKTOP
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 233px;
+    }
+    .hero__title {
+        width: 508px;
+        font-size: 52px;
+        margin-bottom: 36px;
+    }
+    .hero__text {
+        font-size: 24px;
+        margin-bottom: 33px;
+    }
+    .hero__btn {
+        width: 228px;
+    }
 }

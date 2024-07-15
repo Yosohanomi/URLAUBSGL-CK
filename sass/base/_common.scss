@@ -18,15 +18,17 @@ body {
 }
 
 // TABLET
-// @media screen and (min-width: 786px) {
-//     .container {
-//         width: 786px;
-//     }
-// }
+@media screen and (min-width: 786px) {
+    .container {
+        width: 786px;
+    }
+
+    
+}
 
 // DEKSTOP
-// @media screen and (min-width: 1200px) {
-//     .container {
-//         width: 1200px;
-//     }
-// }
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
