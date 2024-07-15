@@ -188,22 +188,4 @@ body {
   .hero__btn {
     width: 228px;
   }
-}
-@media screen and (min-width: 1200px) {
-  .hero {
-    padding-top: 200px;
-    padding-bottom: 233px;
-  }
-  .hero__title {
-    width: 508px;
-    font-size: 52px;
-    margin-bottom: 36px;
-  }
-  .hero__text {
-    font-size: 24px;
-    margin-bottom: 33px;
-  }
-  .hero__btn {
-    width: 228px;
-  }
 }/*# sourceMappingURL=main.css.map */
