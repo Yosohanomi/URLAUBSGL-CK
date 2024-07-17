@@ -1,23 +1,57 @@
 .partners {
+    text-align: center;
     padding-top: 70px;
     padding-bottom: 57px;
 }
 
 .partners__title {
+    color: $titleColor;
+    font-size: 22px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .parnters__list {
 }
 .partners__item {
+    width: 217px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 27px;
 }
 .partnets__image-thumb {
+    position: relative;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
 }
-.parnters__image {
-}
+
+
 .icon__overlay {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
 }
 .partners__svg {
+    width: 16px;
+    height: 16px;
+    fill: #FFF;
 }
 .partners__name {
+    color: $titleColor;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 13px;
 }
 .partners__text {
+    color: $textColor;
+    font-size: 14px;
+    font-weight: 300;
 }
