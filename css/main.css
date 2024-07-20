@@ -263,4 +263,14 @@ body {
   color: #666;
   font-size: 14px;
   font-weight: 300;
+}
+
+.partnets__btn {
+  color: #FF4E50;
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid #FF4E50;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 12px 59px;
 }/*# sourceMappingURL=main.css.map */
