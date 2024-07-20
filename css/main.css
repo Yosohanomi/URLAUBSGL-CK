@@ -198,8 +198,8 @@ body {
 .partners__title {
   color: #333;
   font-size: 22px;
-  font-size: 22px;
   font-weight: 700;
+  margin-bottom: 14px;
 }
 
 .partners__item {
@@ -218,8 +218,8 @@ body {
 }
 
 .icon__overlay {
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -228,6 +228,22 @@ body {
   justify-content: center;
   align-items: center;
   border: 4px solid white;
+}
+
+.tv {
+  background-color: #FF4E50;
+}
+
+.chemistry {
+  background-color: #FFA507;
+}
+
+.coffee {
+  background-color: #1CD7AD;
+}
+
+.email {
+  background-color: #4E73DB;
 }
 
 .partners__svg {
